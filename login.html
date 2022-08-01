@@ -10,25 +10,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div id="bg">
-        <div>
-          <p class="title">Justgram</p>
+  <body class="flex-center">
+    <div class="login-container">
+      <div class="flex-center logo-wrapper">
+        <span class="logo-text">Justgram</span>
+      </div>
+      <div>
+        <div class="login-wrapper">
+          <input class="login-input" type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
         </div>
-        <div class="idpwbt">
-          <div>
-            <input class="loginemail" type="text" placeholder="전화번호, 사용자 이름 또는 이메일" />
-          </div>
-          <div>
-            <input class="loginpassword" type="password" placeholder="비밀번호" />
-          </div>
-          <div>
-            <button class="loginbutton" disabled><span style="color: white;" >로그인</span></button>
-          </div>
-          <div>
-            <a class="extra-wrapper">비밀번호를 잊으셨나요?</a>
-          </div>
+        <div class="login-wrapper">
+          <input class="login-input" type="password" placeholder="비밀번호">
         </div>
+        <div class="flex-center button-wrapper">
+          <button class="login-button" disabled>로그인</button>
+        </div>
+      </div>
+      <div class="flex-center extra-wrapper">
+        <a class="find-password">비밀번호를 잊으셨나요?</a>
       </div>
     </div>
 

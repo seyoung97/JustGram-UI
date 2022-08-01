@@ -1,61 +1,68 @@
 body {
-  background-color: rgb(236, 233, 233);
+  background-color: rgb(242, 239, 239);
 }
 
-#bg {
-  background-color: white;
-  height: 600px;
+.login-container {
   width: 500px;
-  border: 2px solid rgb(87, 87, 87);
-  margin: auto;
-}
-
-.idpwbt {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  margin: 0px 100px;
-}
-
-.loginbutton {
-  width: 100%;
-  padding: 5px 0px;
-  font-size: 20px;
-  background-color: rgb(131, 168, 238);
-  border: none;
+  border: 1px solid lightgray;
   border-radius: 5px;
+  background-color: white;
 }
 
-.loginpassword {
-  width: 100%;
-  margin: 0px 0px 10px;
-  padding: 10px 0px;
-  font-size: 17px;
-  background-color: rgb(240, 236, 236);
-  border: 2px solid;
-  border-radius: 3px;
-  border-color: rgb(233, 230, 230);
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.loginemail {
-  width: 100%;
-  margin: 10px 0px;
-  padding: 10px 0px;
-  font-size: 17px;
-  background-color: rgb(240, 236, 236);
-  border: 2px solid;
-  border-radius: 3px;
-  border-color: rgb(233, 230, 230);
+.logo-wrapper {
+  padding: 30px;
 }
 
-.title {
-  margin: 50px 165px 70px;
+.logo-text {
   font-family: "Lobster", cursive;
-  font-size: 50px;
+  font-size: 48px;
+}
+
+.login-wrapper {
+  background-color: rgb(244, 241, 241);
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+.login-input {
+  background-color: rgb(244, 241, 241);
+  border: none;
+  width: 100%;
+}
+.login-input:focus {
+  outline: none;
+}
+
+.button-wrapper {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  width: 100%;
+  color: white;
+  background-color: rgb(205, 233, 244);
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
 }
 
 .extra-wrapper {
-  display: block;
-  padding-top: 230px;
+  padding-top: 250px;
   padding-bottom: 20px;
+}
+
+.find-password {
+  color: rgb(0, 63, 108);
 }
