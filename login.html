@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script defer src="js/login.js"></script>
   </head>
   <body class="flex-center">
     <div class="login-container">
@@ -17,13 +18,13 @@
       </div>
       <div>
         <div class="login-wrapper">
-          <input class="login-input" type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
+          <input id="email-input-box" class="login-input" type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
         </div>
         <div class="login-wrapper">
-          <input class="login-input" type="password" placeholder="비밀번호">
+          <input id="password-input-box" class="login-input" type="password" placeholder="비밀번호">
         </div>
         <div class="flex-center button-wrapper">
-          <button class="login-button" disabled>로그인</button>
+          <button id="button-login" class="login-button" disabled>로그인</button>
         </div>
       </div>
       <div class="flex-center extra-wrapper">
@@ -31,6 +32,6 @@
       </div>
     </div>
 
-    <script src="js/login.js"></script>
+    
   </body>
 </html>
