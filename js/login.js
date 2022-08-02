@@ -1,6 +1,6 @@
-const emailForm = document.querySelector(".loginemail");
-const passwordForm = document.querySelector(".loginpassword");
-const loginButton = document.querySelector(".loginbutton");
+const emailForm = document.getElementById("email-input-box");
+const passwordForm = document.getElementById("password-input-box");
+const loginButton = document.getElementById("button-login");
 
 emailForm.addEventListener("keyup", listener);
 passwordForm.addEventListener("keyup", listener);
@@ -15,4 +15,11 @@ function listener() {
       break;
   }
 }
-listener();
+
+// function listener() {
+//   if (!(emailForm.value && passwordForm.value)) {
+//     loginButton.disabled = true;
+//   } else {
+//     loginButton.disabled = false;
+//   }
+// }
